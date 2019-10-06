@@ -10,22 +10,21 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:ems="10"
         android:hint="@string/edit_message"
         android:inputType="textPersonName"
         android:text="Name"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="50dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="44dp"
         android:text="@string/button_send"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="49dp" />
+        tools:layout_editor_absoluteY="50dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
